@@ -1,0 +1,42 @@
+# ========================================================
+# Git Ignore - Asistente Moodle + Gemini
+# ========================================================
+
+# Credenciales y variables de entorno (NUNCA SUBIR)
+.env
+*.env
+
+# Entornos virtuales
+.venv/
+env/
+venv/
+ENV/
+
+# Compilados de Python y caché
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Datos de sesión y perfil de Chrome/Playwright (NUNCA SUBIR SESIONES NI COOKIES)
+browser_data/
+profiles/
+cookies/
+.playwright/
+
+# Logs y archivos temporales
+logs/
+*.log
+tmp/
+temp/
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Windows
+desktop.ini
